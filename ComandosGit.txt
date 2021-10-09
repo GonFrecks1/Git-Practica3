@@ -1,0 +1,34 @@
+// Iniciamos git
+git init
+
+// Clonamos el repo 
+git clone https://github.com/GonFrecks1/Git-Practica3/
+
+// Vemos si hay cambios pendientes 
+git status
+
+// Agregamos Todos los archivos al stage area si ponemos
+// Si ponemos el nombre en vez de asterisco (*), se agrega solo ese archivo
+git add *
+
+// Guardamos o consolidamos los cambios
+git commit -m "add clase Person.cs"
+
+// git add + git commit
+git commit -am "add clase Person.cs"
+
+// Subimos al remoto (https://github.com/GonFrecks1/Git-Practica3/)
+// ya sea al main o a la rama que indiquemos
+git push origin main
+git push origin rama1
+git push origin rama2
+git push origin ramaN
+
+// Creamos una rama
+git branch Dev1
+
+// Nos posicionamos en la rama creada
+git checkout Dev1
+
+// abreviado creamos rama y nos posicionamos en ella en un solo comando 
+git checkout -B Dev1
