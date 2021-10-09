@@ -11,4 +11,10 @@ class Person
 	// New parameter State
 	public string State {get; set;}
 	
+	// Dev1 2021.09.09 Saturday
+	public void Greetings()
+	{
+		Console.WriteLine("Hello World");
+	}
+	
 }
