@@ -8,5 +8,7 @@ class Person
 	
 	// New parameter
 	public string Country {get; set;}
+	// New parameter State
+	public string State {get; set;}
 	
 }
