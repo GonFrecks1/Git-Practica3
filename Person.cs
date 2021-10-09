@@ -6,4 +6,7 @@ class Person
 	public DateTime DateInsert {get; set;}
 	public bool isActive {get; set;}
 	
+	// New parameter
+	public string Country {get; set;}
+	
 }
