@@ -44,3 +44,7 @@ git merge main dev2
 git commit -am "conflicto resuelto aplicamos ..."
 git push origin Dev2 (actualizamos la rama en la repo)
 // ya en el GitHub aplicampos el OpenPullRequest para hacer el merge de Dev2 a main.
+
+// para ver el log Graficamente XD (ta curado)
+git log --oneline --graph
+
