@@ -33,3 +33,14 @@ git checkout Dev1
 
 // abreviado creamos rama y nos posicionamos en ella en un solo comando 
 git checkout -B Dev1
+
+// Cuando hay un conflicto entre main y una rama
+// nos movemnos a main (git checkout main)
+//hacemos un git fetch y git pull origin main para tener los caqmbios actuales
+// ahora nos movemos a Dev2 (la rama del conflicto) y hacemo el merge
+git merge main dev2
+// aparecen los conflictos en archivo en VS Code y elejimos el codigo correcto o simplemente correjimos para normalizar nuestro codigo,
+// aplicamos el commit
+git commit -am "conflicto resuelto aplicamos ..."
+git push origin Dev2 (actualizamos la rama en la repo)
+// ya en el GitHub aplicampos el OpenPullRequest para hacer el merge de Dev2 a main.
